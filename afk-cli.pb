@@ -21,7 +21,7 @@ Global BotNick$ = "afkBot" ; My NickName in IRC
 Global BotUser$ = "afkBot" ; UserName, used for Logging In
 Global BotHost$ = ""
 Global BotIDFull$ = ""
-Global NickServPass$ = "cyberschlunk"  ; The password this bot is going to give to NickServ if it needs to login to the server.
+Global NickServPass$ = "my_password"  ; The password this bot is going to give to NickServ if it needs to login to the server.
 Global Bot_Away_Status.i = #False ; This holds a value to find out if you are currently set to AWAY on the server.
 Global SentBytes.i = 0 ; Total count of bytes sent using Sockets
 Global RecvBytes.i = 0 ; Total count of bytes received using Sockets
@@ -1540,8 +1540,7 @@ LoadPrefs()
 Main()
 ; IDE Options = PureBasic 5.31 (Windows - x86)
 ; ExecutableFormat = Console
-; CursorPosition = 1349
-; FirstLine = 439
+; CursorPosition = 23
 ; Folding = 9DcAAAAAAQA-
 ; EnableThread
 ; EnableXP
